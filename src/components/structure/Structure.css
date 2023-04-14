@@ -1,0 +1,61 @@
+.cont>:nth-child(1)>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: antiquewhite;
+    width: 25rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+}
+svg{
+    width: 3rem;
+    height: 3rem;
+}
+.file{
+    display: flex;
+    align-items: center;
+    background: rgb(227, 227, 243);
+    width: 25rem;
+    border-radius: 5px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.add>button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+    cursor: pointer;
+
+}
+
+.add>button>svg{
+    width: 1rem !important;
+    height: 1rem !important;
+}
+.add{
+    display: flex;
+    gap: 0.2rem;
+  
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.file{
+    margin-bottom: 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
